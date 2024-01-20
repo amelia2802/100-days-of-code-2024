@@ -44,7 +44,7 @@ public class validParentheses {
         System.out.println("Enter the paranthesis to check:");
         String input_str=sc.nextLine();
 
-        System.out.println(isValidParentheses(input_str));
+        System.out.println(isValidParentheses(input_str.replaceAll("\\s","")));
         sc.close();
     }
 }
