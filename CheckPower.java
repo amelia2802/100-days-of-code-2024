@@ -30,5 +30,6 @@ class CheckPower {
         int input_number = sc.nextInt();
         System.out.println(isPowerOfTwo(input_number));
 
+        sc.close();
     }
 }
