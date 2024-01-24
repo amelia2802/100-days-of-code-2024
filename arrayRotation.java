@@ -8,5 +8,5 @@
     The array can contain any type of elements.
     The integer will always be positive and less than or equal to the length of the array.
     Example
-    rotateArray([1, 2, 3, 4, 5], 2) => [4, 5, 1, 2, 3]
+    rotateArray([1, 2, 3, 4, 5], 2) => [4, 5, 1, 2, 3].
 */
