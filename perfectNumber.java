@@ -14,15 +14,18 @@ import java.util.*;
 
 public class perfectNumber {
     public static boolean perfectNumberCheck(int num){
-        int sumFact = 0;
+        int sumFact = 1;
 
         if(num<0){
             return false;
         }
-        
-        for(int i=1;i<=num/2;i++){
-            if(num%i == 0){
-                sumFact+=i;
+
+        for(int i=2;i<=Math.sqrt(num);i++){
+            if (num % i == 0) {
+                sumFact += i;
+                if (i != num / i) {
+                    sumFact += num / i;
+                }
             }
         }
 
