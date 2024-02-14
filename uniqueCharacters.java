@@ -16,7 +16,7 @@ import java.util.*;
 class uniqueCharacters{
     public static boolean areCharactersUnique(String word){
         if(word.length()==0){
-            return false;
+            return true;
         }
 
         char splitedArr[] = word.toCharArray();
